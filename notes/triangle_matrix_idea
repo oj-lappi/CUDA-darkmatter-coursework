@@ -1,0 +1,21 @@
+
+/*
+//TO DO a triangular matrix calculation, do this:
+//ADD 2 to a bin for every angle
+//AND add the diagonal to bin 0 afterwards
+        uint32_t i_a;
+        uint32_t i_b;
+
+//DD & DR
+        i_a = i%(SET_DIM);
+        i_b = i/SET_DIM+1;
+        if (i_a <= i_b){
+                //RR
+                i_a = IN_ARRAY_DIM-i_a-1;
+                i_b = IN_ARRAY_DIM-i_b;
+        }
+
+        cart_coordinate a = coords[i_a];
+        cart_coordinate b = coords[i_b];
+*/
+

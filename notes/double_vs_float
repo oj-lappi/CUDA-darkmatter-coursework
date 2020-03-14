@@ -1,0 +1,10 @@
+rate of error between the two approaches (i.e. which gives wrong bins)
+
+comparisons\type     │  float		double
+─────────────────────┘
+		10000	0%		0%
+	      1000000	.0012%		.0008%
+	    100000000	.0019%		.0015%
+	  10000000000	would take > 1h	
+
+=> ~99.998% accuracy, can be as bad as 99.99%
